@@ -1,0 +1,62 @@
+[
+  {
+    "REGION_ID": "1",
+    "NAME": "Delhi",
+    "STATE": "Delhi",
+    "DESCRIPTION": "The capital region known for various crafts."
+  },
+  {
+    "REGION_ID": "2",
+    "NAME": "Mumbai",
+    "STATE": "Maharashtra",
+    "DESCRIPTION": "Financial capital with rich artistic traditions."
+  },
+  {
+    "REGION_ID": "3",
+    "NAME": "Kolkata",
+    "STATE": "West Bengal",
+    "DESCRIPTION": "Known for textiles and traditional art forms."
+  },
+  {
+    "REGION_ID": "4",
+    "NAME": "Chennai",
+    "STATE": "Tamil Nadu",
+    "DESCRIPTION": "Rich in traditional crafts and bronze work."
+  },
+  {
+    "REGION_ID": "5",
+    "NAME": "Jaipur",
+    "STATE": "Rajasthan",
+    "DESCRIPTION": "Famous for textiles, jewelry, and pottery."
+  },
+  {
+    "REGION_ID": "6",
+    "NAME": "Varanasi",
+    "STATE": "Uttar Pradesh",
+    "DESCRIPTION": "Known for silk weaving and metalwork."
+  },
+  {
+    "REGION_ID": "7",
+    "NAME": "Hyderabad",
+    "STATE": "Telangana",
+    "DESCRIPTION": "Famous for pearls and bidri work."
+  },
+  {
+    "REGION_ID": "8",
+    "NAME": "Ahmedabad",
+    "STATE": "Gujarat",
+    "DESCRIPTION": "Known for textiles and embroidery."
+  },
+  {
+    "REGION_ID": "9",
+    "NAME": "Bhopal",
+    "STATE": "Madhya Pradesh",
+    "DESCRIPTION": "Rich in tribal arts and crafts."
+  },
+  {
+    "REGION_ID": "10",
+    "NAME": "Lucknow",
+    "STATE": "Uttar Pradesh",
+    "DESCRIPTION": "Famous for chikankari embroidery and pottery."
+  }
+]

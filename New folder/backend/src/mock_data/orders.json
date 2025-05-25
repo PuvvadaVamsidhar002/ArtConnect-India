@@ -1,0 +1,1184 @@
+[
+  {
+    "ORDER_ID": "1",
+    "CUSTOMER_ID": "2",
+    "ORDER_DATE": "2025-04-21T15:28:34.414517",
+    "STATUS": "Delivered",
+    "TOTAL_AMOUNT": 14166,
+    "PLATFORM_FEE": 2269.43,
+    "PARTNER_AMOUNT": 11896.57,
+    "SHIPPING_ADDRESS": "458 Example Street, City, State, India",
+    "PAYMENT_METHOD": "Net Banking",
+    "ITEMS": [
+      {
+        "ITEM_ID": "1-0",
+        "PRODUCT_ID": "31",
+        "PARTNER_ID": "8",
+        "PRICE": 4469,
+        "QUANTITY": 3,
+        "SUBTOTAL": 13407
+      },
+      {
+        "ITEM_ID": "1-1",
+        "PRODUCT_ID": "23",
+        "PARTNER_ID": "6",
+        "PRICE": 759,
+        "QUANTITY": 1,
+        "SUBTOTAL": 759
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "2",
+    "CUSTOMER_ID": "68",
+    "ORDER_DATE": "2025-11-07T15:28:34.414517",
+    "STATUS": "Delivered",
+    "TOTAL_AMOUNT": 18043,
+    "PLATFORM_FEE": 2991.58,
+    "PARTNER_AMOUNT": 15051.42,
+    "SHIPPING_ADDRESS": "293 Example Street, City, State, India",
+    "PAYMENT_METHOD": "UPI",
+    "ITEMS": [
+      {
+        "ITEM_ID": "2-0",
+        "PRODUCT_ID": "41",
+        "PARTNER_ID": "3",
+        "PRICE": 2531,
+        "QUANTITY": 3,
+        "SUBTOTAL": 7593
+      },
+      {
+        "ITEM_ID": "2-1",
+        "PRODUCT_ID": "43",
+        "PARTNER_ID": "8",
+        "PRICE": 3156,
+        "QUANTITY": 1,
+        "SUBTOTAL": 3156
+      },
+      {
+        "ITEM_ID": "2-2",
+        "PRODUCT_ID": "38",
+        "PARTNER_ID": "4",
+        "PRICE": 3647,
+        "QUANTITY": 2,
+        "SUBTOTAL": 7294
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "3",
+    "CUSTOMER_ID": "17",
+    "ORDER_DATE": "2025-09-05T15:28:34.414517",
+    "STATUS": "Delivered",
+    "TOTAL_AMOUNT": 17789,
+    "PLATFORM_FEE": 2445.84,
+    "PARTNER_AMOUNT": 15343.16,
+    "SHIPPING_ADDRESS": "864 Example Street, City, State, India",
+    "PAYMENT_METHOD": "Debit Card",
+    "ITEMS": [
+      {
+        "ITEM_ID": "3-0",
+        "PRODUCT_ID": "14",
+        "PARTNER_ID": "7",
+        "PRICE": 1469,
+        "QUANTITY": 2,
+        "SUBTOTAL": 2938
+      },
+      {
+        "ITEM_ID": "3-1",
+        "PRODUCT_ID": "33",
+        "PARTNER_ID": "9",
+        "PRICE": 1853,
+        "QUANTITY": 2,
+        "SUBTOTAL": 3706
+      },
+      {
+        "ITEM_ID": "3-2",
+        "PRODUCT_ID": "13",
+        "PARTNER_ID": "4",
+        "PRICE": 3715,
+        "QUANTITY": 3,
+        "SUBTOTAL": 11145
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "4",
+    "CUSTOMER_ID": "49",
+    "ORDER_DATE": "2025-09-26T15:28:34.414517",
+    "STATUS": "Delivered",
+    "TOTAL_AMOUNT": 9892,
+    "PLATFORM_FEE": 1546.24,
+    "PARTNER_AMOUNT": 8345.76,
+    "SHIPPING_ADDRESS": "770 Example Street, City, State, India",
+    "PAYMENT_METHOD": "Net Banking",
+    "ITEMS": [
+      {
+        "ITEM_ID": "4-0",
+        "PRODUCT_ID": "21",
+        "PARTNER_ID": "8",
+        "PRICE": 2803,
+        "QUANTITY": 2,
+        "SUBTOTAL": 5606
+      },
+      {
+        "ITEM_ID": "4-1",
+        "PRODUCT_ID": "37",
+        "PARTNER_ID": "8",
+        "PRICE": 2143,
+        "QUANTITY": 2,
+        "SUBTOTAL": 4286
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "5",
+    "CUSTOMER_ID": "73",
+    "ORDER_DATE": "2025-08-23T15:28:34.414517",
+    "STATUS": "Shipped",
+    "TOTAL_AMOUNT": 37118,
+    "PLATFORM_FEE": 5278.72,
+    "PARTNER_AMOUNT": 31839.28,
+    "SHIPPING_ADDRESS": "14 Example Street, City, State, India",
+    "PAYMENT_METHOD": "Net Banking",
+    "ITEMS": [
+      {
+        "ITEM_ID": "5-0",
+        "PRODUCT_ID": "14",
+        "PARTNER_ID": "9",
+        "PRICE": 4284,
+        "QUANTITY": 3,
+        "SUBTOTAL": 12852
+      },
+      {
+        "ITEM_ID": "5-1",
+        "PRODUCT_ID": "48",
+        "PARTNER_ID": "5",
+        "PRICE": 2594,
+        "QUANTITY": 1,
+        "SUBTOTAL": 2594
+      },
+      {
+        "ITEM_ID": "5-2",
+        "PRODUCT_ID": "6",
+        "PARTNER_ID": "3",
+        "PRICE": 4838,
+        "QUANTITY": 2,
+        "SUBTOTAL": 9676
+      },
+      {
+        "ITEM_ID": "5-3",
+        "PRODUCT_ID": "33",
+        "PARTNER_ID": "7",
+        "PRICE": 2937,
+        "QUANTITY": 2,
+        "SUBTOTAL": 5874
+      },
+      {
+        "ITEM_ID": "5-4",
+        "PRODUCT_ID": "50",
+        "PARTNER_ID": "6",
+        "PRICE": 3061,
+        "QUANTITY": 2,
+        "SUBTOTAL": 6122
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "6",
+    "CUSTOMER_ID": "45",
+    "ORDER_DATE": "2025-05-20T15:28:34.414517",
+    "STATUS": "Processing",
+    "TOTAL_AMOUNT": 22829,
+    "PLATFORM_FEE": 3656.5,
+    "PARTNER_AMOUNT": 19172.5,
+    "SHIPPING_ADDRESS": "935 Example Street, City, State, India",
+    "PAYMENT_METHOD": "Debit Card",
+    "ITEMS": [
+      {
+        "ITEM_ID": "6-0",
+        "PRODUCT_ID": "33",
+        "PARTNER_ID": "3",
+        "PRICE": 3025,
+        "QUANTITY": 2,
+        "SUBTOTAL": 6050
+      },
+      {
+        "ITEM_ID": "6-1",
+        "PRODUCT_ID": "26",
+        "PARTNER_ID": "4",
+        "PRICE": 1614,
+        "QUANTITY": 2,
+        "SUBTOTAL": 3228
+      },
+      {
+        "ITEM_ID": "6-2",
+        "PRODUCT_ID": "38",
+        "PARTNER_ID": "8",
+        "PRICE": 908,
+        "QUANTITY": 3,
+        "SUBTOTAL": 2724
+      },
+      {
+        "ITEM_ID": "6-3",
+        "PRODUCT_ID": "4",
+        "PARTNER_ID": "3",
+        "PRICE": 3609,
+        "QUANTITY": 3,
+        "SUBTOTAL": 10827
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "7",
+    "CUSTOMER_ID": "30",
+    "ORDER_DATE": "2025-04-12T15:28:34.414517",
+    "STATUS": "Processing",
+    "TOTAL_AMOUNT": 40739,
+    "PLATFORM_FEE": 5866.75,
+    "PARTNER_AMOUNT": 34872.25,
+    "SHIPPING_ADDRESS": "183 Example Street, City, State, India",
+    "PAYMENT_METHOD": "Net Banking",
+    "ITEMS": [
+      {
+        "ITEM_ID": "7-0",
+        "PRODUCT_ID": "2",
+        "PARTNER_ID": "7",
+        "PRICE": 3883,
+        "QUANTITY": 1,
+        "SUBTOTAL": 3883
+      },
+      {
+        "ITEM_ID": "7-1",
+        "PRODUCT_ID": "1",
+        "PARTNER_ID": "3",
+        "PRICE": 3368,
+        "QUANTITY": 3,
+        "SUBTOTAL": 10104
+      },
+      {
+        "ITEM_ID": "7-2",
+        "PRODUCT_ID": "20",
+        "PARTNER_ID": "6",
+        "PRICE": 2276,
+        "QUANTITY": 2,
+        "SUBTOTAL": 4552
+      },
+      {
+        "ITEM_ID": "7-3",
+        "PRODUCT_ID": "34",
+        "PARTNER_ID": "1",
+        "PRICE": 4496,
+        "QUANTITY": 3,
+        "SUBTOTAL": 13488
+      },
+      {
+        "ITEM_ID": "7-4",
+        "PRODUCT_ID": "20",
+        "PARTNER_ID": "3",
+        "PRICE": 2904,
+        "QUANTITY": 3,
+        "SUBTOTAL": 8712
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "8",
+    "CUSTOMER_ID": "25",
+    "ORDER_DATE": "2025-03-04T15:28:34.414517",
+    "STATUS": "Processing",
+    "TOTAL_AMOUNT": 14511,
+    "PLATFORM_FEE": 2161.07,
+    "PARTNER_AMOUNT": 12349.93,
+    "SHIPPING_ADDRESS": "90 Example Street, City, State, India",
+    "PAYMENT_METHOD": "Net Banking",
+    "ITEMS": [
+      {
+        "ITEM_ID": "8-0",
+        "PRODUCT_ID": "12",
+        "PARTNER_ID": "10",
+        "PRICE": 628,
+        "QUANTITY": 1,
+        "SUBTOTAL": 628
+      },
+      {
+        "ITEM_ID": "8-1",
+        "PRODUCT_ID": "39",
+        "PARTNER_ID": "2",
+        "PRICE": 4610,
+        "QUANTITY": 1,
+        "SUBTOTAL": 4610
+      },
+      {
+        "ITEM_ID": "8-2",
+        "PRODUCT_ID": "17",
+        "PARTNER_ID": "9",
+        "PRICE": 4840,
+        "QUANTITY": 1,
+        "SUBTOTAL": 4840
+      },
+      {
+        "ITEM_ID": "8-3",
+        "PRODUCT_ID": "43",
+        "PARTNER_ID": "10",
+        "PRICE": 941,
+        "QUANTITY": 3,
+        "SUBTOTAL": 2823
+      },
+      {
+        "ITEM_ID": "8-4",
+        "PRODUCT_ID": "49",
+        "PARTNER_ID": "10",
+        "PRICE": 1610,
+        "QUANTITY": 1,
+        "SUBTOTAL": 1610
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "9",
+    "CUSTOMER_ID": "27",
+    "ORDER_DATE": "2025-02-12T15:28:34.415524",
+    "STATUS": "Shipped",
+    "TOTAL_AMOUNT": 12020,
+    "PLATFORM_FEE": 2175.75,
+    "PARTNER_AMOUNT": 9844.25,
+    "SHIPPING_ADDRESS": "554 Example Street, City, State, India",
+    "PAYMENT_METHOD": "Debit Card",
+    "ITEMS": [
+      {
+        "ITEM_ID": "9-0",
+        "PRODUCT_ID": "16",
+        "PARTNER_ID": "1",
+        "PRICE": 730,
+        "QUANTITY": 3,
+        "SUBTOTAL": 2190
+      },
+      {
+        "ITEM_ID": "9-1",
+        "PRODUCT_ID": "23",
+        "PARTNER_ID": "8",
+        "PRICE": 1495,
+        "QUANTITY": 2,
+        "SUBTOTAL": 2990
+      },
+      {
+        "ITEM_ID": "9-2",
+        "PRODUCT_ID": "37",
+        "PARTNER_ID": "6",
+        "PRICE": 3420,
+        "QUANTITY": 2,
+        "SUBTOTAL": 6840
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "10",
+    "CUSTOMER_ID": "71",
+    "ORDER_DATE": "2025-02-11T15:28:34.415524",
+    "STATUS": "Processing",
+    "TOTAL_AMOUNT": 31173,
+    "PLATFORM_FEE": 4228.2,
+    "PARTNER_AMOUNT": 26944.8,
+    "SHIPPING_ADDRESS": "858 Example Street, City, State, India",
+    "PAYMENT_METHOD": "Credit Card",
+    "ITEMS": [
+      {
+        "ITEM_ID": "10-0",
+        "PRODUCT_ID": "38",
+        "PARTNER_ID": "7",
+        "PRICE": 3074,
+        "QUANTITY": 2,
+        "SUBTOTAL": 6148
+      },
+      {
+        "ITEM_ID": "10-1",
+        "PRODUCT_ID": "39",
+        "PARTNER_ID": "3",
+        "PRICE": 4496,
+        "QUANTITY": 1,
+        "SUBTOTAL": 4496
+      },
+      {
+        "ITEM_ID": "10-2",
+        "PRODUCT_ID": "31",
+        "PARTNER_ID": "5",
+        "PRICE": 2559,
+        "QUANTITY": 1,
+        "SUBTOTAL": 2559
+      },
+      {
+        "ITEM_ID": "10-3",
+        "PRODUCT_ID": "1",
+        "PARTNER_ID": "2",
+        "PRICE": 3900,
+        "QUANTITY": 3,
+        "SUBTOTAL": 11700
+      },
+      {
+        "ITEM_ID": "10-4",
+        "PRODUCT_ID": "48",
+        "PARTNER_ID": "2",
+        "PRICE": 3135,
+        "QUANTITY": 2,
+        "SUBTOTAL": 6270
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "11",
+    "CUSTOMER_ID": "14",
+    "ORDER_DATE": "2025-02-01T15:28:34.415524",
+    "STATUS": "Delivered",
+    "TOTAL_AMOUNT": 8722,
+    "PLATFORM_FEE": 1632.69,
+    "PARTNER_AMOUNT": 7089.3099999999995,
+    "SHIPPING_ADDRESS": "610 Example Street, City, State, India",
+    "PAYMENT_METHOD": "Credit Card",
+    "ITEMS": [
+      {
+        "ITEM_ID": "11-0",
+        "PRODUCT_ID": "45",
+        "PARTNER_ID": "4",
+        "PRICE": 2686,
+        "QUANTITY": 1,
+        "SUBTOTAL": 2686
+      },
+      {
+        "ITEM_ID": "11-1",
+        "PRODUCT_ID": "18",
+        "PARTNER_ID": "5",
+        "PRICE": 3018,
+        "QUANTITY": 2,
+        "SUBTOTAL": 6036
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "12",
+    "CUSTOMER_ID": "87",
+    "ORDER_DATE": "2025-11-08T15:28:34.415524",
+    "STATUS": "Processing",
+    "TOTAL_AMOUNT": 19103,
+    "PLATFORM_FEE": 3216.36,
+    "PARTNER_AMOUNT": 15886.64,
+    "SHIPPING_ADDRESS": "547 Example Street, City, State, India",
+    "PAYMENT_METHOD": "UPI",
+    "ITEMS": [
+      {
+        "ITEM_ID": "12-0",
+        "PRODUCT_ID": "10",
+        "PARTNER_ID": "5",
+        "PRICE": 2963,
+        "QUANTITY": 2,
+        "SUBTOTAL": 5926
+      },
+      {
+        "ITEM_ID": "12-1",
+        "PRODUCT_ID": "43",
+        "PARTNER_ID": "8",
+        "PRICE": 1101,
+        "QUANTITY": 1,
+        "SUBTOTAL": 1101
+      },
+      {
+        "ITEM_ID": "12-2",
+        "PRODUCT_ID": "13",
+        "PARTNER_ID": "5",
+        "PRICE": 1406,
+        "QUANTITY": 2,
+        "SUBTOTAL": 2812
+      },
+      {
+        "ITEM_ID": "12-3",
+        "PRODUCT_ID": "29",
+        "PARTNER_ID": "6",
+        "PRICE": 4632,
+        "QUANTITY": 2,
+        "SUBTOTAL": 9264
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "13",
+    "CUSTOMER_ID": "82",
+    "ORDER_DATE": "2025-05-21T15:28:34.415524",
+    "STATUS": "Shipped",
+    "TOTAL_AMOUNT": 23721,
+    "PLATFORM_FEE": 2433.79,
+    "PARTNER_AMOUNT": 21287.21,
+    "SHIPPING_ADDRESS": "417 Example Street, City, State, India",
+    "PAYMENT_METHOD": "UPI",
+    "ITEMS": [
+      {
+        "ITEM_ID": "13-0",
+        "PRODUCT_ID": "20",
+        "PARTNER_ID": "2",
+        "PRICE": 2569,
+        "QUANTITY": 3,
+        "SUBTOTAL": 7707
+      },
+      {
+        "ITEM_ID": "13-1",
+        "PRODUCT_ID": "22",
+        "PARTNER_ID": "5",
+        "PRICE": 4381,
+        "QUANTITY": 2,
+        "SUBTOTAL": 8762
+      },
+      {
+        "ITEM_ID": "13-2",
+        "PRODUCT_ID": "48",
+        "PARTNER_ID": "5",
+        "PRICE": 2278,
+        "QUANTITY": 1,
+        "SUBTOTAL": 2278
+      },
+      {
+        "ITEM_ID": "13-3",
+        "PRODUCT_ID": "30",
+        "PARTNER_ID": "7",
+        "PRICE": 2802,
+        "QUANTITY": 1,
+        "SUBTOTAL": 2802
+      },
+      {
+        "ITEM_ID": "13-4",
+        "PRODUCT_ID": "13",
+        "PARTNER_ID": "2",
+        "PRICE": 2172,
+        "QUANTITY": 1,
+        "SUBTOTAL": 2172
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "14",
+    "CUSTOMER_ID": "82",
+    "ORDER_DATE": "2025-10-15T15:28:34.415524",
+    "STATUS": "Delivered",
+    "TOTAL_AMOUNT": 27574,
+    "PLATFORM_FEE": 4145.37,
+    "PARTNER_AMOUNT": 23428.63,
+    "SHIPPING_ADDRESS": "644 Example Street, City, State, India",
+    "PAYMENT_METHOD": "UPI",
+    "ITEMS": [
+      {
+        "ITEM_ID": "14-0",
+        "PRODUCT_ID": "14",
+        "PARTNER_ID": "7",
+        "PRICE": 4437,
+        "QUANTITY": 3,
+        "SUBTOTAL": 13311
+      },
+      {
+        "ITEM_ID": "14-1",
+        "PRODUCT_ID": "3",
+        "PARTNER_ID": "8",
+        "PRICE": 3333,
+        "QUANTITY": 2,
+        "SUBTOTAL": 6666
+      },
+      {
+        "ITEM_ID": "14-2",
+        "PRODUCT_ID": "37",
+        "PARTNER_ID": "10",
+        "PRICE": 4561,
+        "QUANTITY": 1,
+        "SUBTOTAL": 4561
+      },
+      {
+        "ITEM_ID": "14-3",
+        "PRODUCT_ID": "2",
+        "PARTNER_ID": "1",
+        "PRICE": 1518,
+        "QUANTITY": 2,
+        "SUBTOTAL": 3036
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "15",
+    "CUSTOMER_ID": "82",
+    "ORDER_DATE": "2025-03-08T15:28:34.415524",
+    "STATUS": "Delivered",
+    "TOTAL_AMOUNT": 10956,
+    "PLATFORM_FEE": 1535.24,
+    "PARTNER_AMOUNT": 9420.76,
+    "SHIPPING_ADDRESS": "539 Example Street, City, State, India",
+    "PAYMENT_METHOD": "Net Banking",
+    "ITEMS": [
+      {
+        "ITEM_ID": "15-0",
+        "PRODUCT_ID": "8",
+        "PARTNER_ID": "1",
+        "PRICE": 3765,
+        "QUANTITY": 2,
+        "SUBTOTAL": 7530
+      },
+      {
+        "ITEM_ID": "15-1",
+        "PRODUCT_ID": "28",
+        "PARTNER_ID": "4",
+        "PRICE": 3426,
+        "QUANTITY": 1,
+        "SUBTOTAL": 3426
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "16",
+    "CUSTOMER_ID": "70",
+    "ORDER_DATE": "2025-04-10T15:28:34.415524",
+    "STATUS": "Delivered",
+    "TOTAL_AMOUNT": 3418,
+    "PLATFORM_FEE": 342.94,
+    "PARTNER_AMOUNT": 3075.06,
+    "SHIPPING_ADDRESS": "53 Example Street, City, State, India",
+    "PAYMENT_METHOD": "Debit Card",
+    "ITEMS": [
+      {
+        "ITEM_ID": "16-0",
+        "PRODUCT_ID": "16",
+        "PARTNER_ID": "5",
+        "PRICE": 2647,
+        "QUANTITY": 1,
+        "SUBTOTAL": 2647
+      },
+      {
+        "ITEM_ID": "16-1",
+        "PRODUCT_ID": "25",
+        "PARTNER_ID": "1",
+        "PRICE": 771,
+        "QUANTITY": 1,
+        "SUBTOTAL": 771
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "17",
+    "CUSTOMER_ID": "80",
+    "ORDER_DATE": "2025-07-12T15:28:34.415524",
+    "STATUS": "Delivered",
+    "TOTAL_AMOUNT": 9045,
+    "PLATFORM_FEE": 1666.1,
+    "PARTNER_AMOUNT": 7378.9,
+    "SHIPPING_ADDRESS": "447 Example Street, City, State, India",
+    "PAYMENT_METHOD": "Net Banking",
+    "ITEMS": [
+      {
+        "ITEM_ID": "17-0",
+        "PRODUCT_ID": "34",
+        "PARTNER_ID": "4",
+        "PRICE": 2698,
+        "QUANTITY": 1,
+        "SUBTOTAL": 2698
+      },
+      {
+        "ITEM_ID": "17-1",
+        "PRODUCT_ID": "44",
+        "PARTNER_ID": "5",
+        "PRICE": 4779,
+        "QUANTITY": 1,
+        "SUBTOTAL": 4779
+      },
+      {
+        "ITEM_ID": "17-2",
+        "PRODUCT_ID": "45",
+        "PARTNER_ID": "4",
+        "PRICE": 784,
+        "QUANTITY": 2,
+        "SUBTOTAL": 1568
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "18",
+    "CUSTOMER_ID": "92",
+    "ORDER_DATE": "2025-03-15T15:28:34.415524",
+    "STATUS": "Delivered",
+    "TOTAL_AMOUNT": 19648,
+    "PLATFORM_FEE": 2013.0,
+    "PARTNER_AMOUNT": 17635.0,
+    "SHIPPING_ADDRESS": "385 Example Street, City, State, India",
+    "PAYMENT_METHOD": "Net Banking",
+    "ITEMS": [
+      {
+        "ITEM_ID": "18-0",
+        "PRODUCT_ID": "16",
+        "PARTNER_ID": "10",
+        "PRICE": 4910,
+        "QUANTITY": 1,
+        "SUBTOTAL": 4910
+      },
+      {
+        "ITEM_ID": "18-1",
+        "PRODUCT_ID": "43",
+        "PARTNER_ID": "7",
+        "PRICE": 2657,
+        "QUANTITY": 2,
+        "SUBTOTAL": 5314
+      },
+      {
+        "ITEM_ID": "18-2",
+        "PRODUCT_ID": "45",
+        "PARTNER_ID": "2",
+        "PRICE": 4712,
+        "QUANTITY": 2,
+        "SUBTOTAL": 9424
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "19",
+    "CUSTOMER_ID": "7",
+    "ORDER_DATE": "2025-02-18T15:28:34.415524",
+    "STATUS": "Shipped",
+    "TOTAL_AMOUNT": 8688,
+    "PLATFORM_FEE": 1468.41,
+    "PARTNER_AMOUNT": 7219.59,
+    "SHIPPING_ADDRESS": "538 Example Street, City, State, India",
+    "PAYMENT_METHOD": "Credit Card",
+    "ITEMS": [
+      {
+        "ITEM_ID": "19-0",
+        "PRODUCT_ID": "29",
+        "PARTNER_ID": "5",
+        "PRICE": 1314,
+        "QUANTITY": 1,
+        "SUBTOTAL": 1314
+      },
+      {
+        "ITEM_ID": "19-1",
+        "PRODUCT_ID": "32",
+        "PARTNER_ID": "2",
+        "PRICE": 3687,
+        "QUANTITY": 2,
+        "SUBTOTAL": 7374
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "20",
+    "CUSTOMER_ID": "11",
+    "ORDER_DATE": "2025-08-04T15:28:34.415524",
+    "STATUS": "Shipped",
+    "TOTAL_AMOUNT": 29293,
+    "PLATFORM_FEE": 3353.37,
+    "PARTNER_AMOUNT": 25939.63,
+    "SHIPPING_ADDRESS": "447 Example Street, City, State, India",
+    "PAYMENT_METHOD": "Net Banking",
+    "ITEMS": [
+      {
+        "ITEM_ID": "20-0",
+        "PRODUCT_ID": "9",
+        "PARTNER_ID": "4",
+        "PRICE": 1878,
+        "QUANTITY": 1,
+        "SUBTOTAL": 1878
+      },
+      {
+        "ITEM_ID": "20-1",
+        "PRODUCT_ID": "39",
+        "PARTNER_ID": "6",
+        "PRICE": 2098,
+        "QUANTITY": 3,
+        "SUBTOTAL": 6294
+      },
+      {
+        "ITEM_ID": "20-2",
+        "PRODUCT_ID": "22",
+        "PARTNER_ID": "1",
+        "PRICE": 3571,
+        "QUANTITY": 3,
+        "SUBTOTAL": 10713
+      },
+      {
+        "ITEM_ID": "20-3",
+        "PRODUCT_ID": "24",
+        "PARTNER_ID": "10",
+        "PRICE": 2099,
+        "QUANTITY": 3,
+        "SUBTOTAL": 6297
+      },
+      {
+        "ITEM_ID": "20-4",
+        "PRODUCT_ID": "47",
+        "PARTNER_ID": "7",
+        "PRICE": 4111,
+        "QUANTITY": 1,
+        "SUBTOTAL": 4111
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "21",
+    "CUSTOMER_ID": "47",
+    "ORDER_DATE": "2025-01-07T15:28:34.415524",
+    "STATUS": "Delivered",
+    "TOTAL_AMOUNT": 16480,
+    "PLATFORM_FEE": 2065.35,
+    "PARTNER_AMOUNT": 14414.65,
+    "SHIPPING_ADDRESS": "280 Example Street, City, State, India",
+    "PAYMENT_METHOD": "Credit Card",
+    "ITEMS": [
+      {
+        "ITEM_ID": "21-0",
+        "PRODUCT_ID": "2",
+        "PARTNER_ID": "9",
+        "PRICE": 2337,
+        "QUANTITY": 1,
+        "SUBTOTAL": 2337
+      },
+      {
+        "ITEM_ID": "21-1",
+        "PRODUCT_ID": "47",
+        "PARTNER_ID": "7",
+        "PRICE": 3739,
+        "QUANTITY": 1,
+        "SUBTOTAL": 3739
+      },
+      {
+        "ITEM_ID": "21-2",
+        "PRODUCT_ID": "39",
+        "PARTNER_ID": "9",
+        "PRICE": 3268,
+        "QUANTITY": 2,
+        "SUBTOTAL": 6536
+      },
+      {
+        "ITEM_ID": "21-3",
+        "PRODUCT_ID": "22",
+        "PARTNER_ID": "7",
+        "PRICE": 1934,
+        "QUANTITY": 2,
+        "SUBTOTAL": 3868
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "22",
+    "CUSTOMER_ID": "66",
+    "ORDER_DATE": "2025-11-01T15:28:34.415524",
+    "STATUS": "Shipped",
+    "TOTAL_AMOUNT": 12180,
+    "PLATFORM_FEE": 1615.8,
+    "PARTNER_AMOUNT": 10564.2,
+    "SHIPPING_ADDRESS": "617 Example Street, City, State, India",
+    "PAYMENT_METHOD": "UPI",
+    "ITEMS": [
+      {
+        "ITEM_ID": "22-0",
+        "PRODUCT_ID": "44",
+        "PARTNER_ID": "2",
+        "PRICE": 2973,
+        "QUANTITY": 3,
+        "SUBTOTAL": 8919
+      },
+      {
+        "ITEM_ID": "22-1",
+        "PRODUCT_ID": "38",
+        "PARTNER_ID": "5",
+        "PRICE": 3261,
+        "QUANTITY": 1,
+        "SUBTOTAL": 3261
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "23",
+    "CUSTOMER_ID": "84",
+    "ORDER_DATE": "2025-03-14T15:28:34.415524",
+    "STATUS": "Shipped",
+    "TOTAL_AMOUNT": 11197,
+    "PLATFORM_FEE": 1664.62,
+    "PARTNER_AMOUNT": 9532.380000000001,
+    "SHIPPING_ADDRESS": "491 Example Street, City, State, India",
+    "PAYMENT_METHOD": "UPI",
+    "ITEMS": [
+      {
+        "ITEM_ID": "23-0",
+        "PRODUCT_ID": "42",
+        "PARTNER_ID": "7",
+        "PRICE": 3657,
+        "QUANTITY": 1,
+        "SUBTOTAL": 3657
+      },
+      {
+        "ITEM_ID": "23-1",
+        "PRODUCT_ID": "21",
+        "PARTNER_ID": "5",
+        "PRICE": 1869,
+        "QUANTITY": 3,
+        "SUBTOTAL": 5607
+      },
+      {
+        "ITEM_ID": "23-2",
+        "PRODUCT_ID": "31",
+        "PARTNER_ID": "10",
+        "PRICE": 1933,
+        "QUANTITY": 1,
+        "SUBTOTAL": 1933
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "24",
+    "CUSTOMER_ID": "82",
+    "ORDER_DATE": "2025-05-21T15:28:34.415524",
+    "STATUS": "Delivered",
+    "TOTAL_AMOUNT": 10858,
+    "PLATFORM_FEE": 1975.69,
+    "PARTNER_AMOUNT": 8882.31,
+    "SHIPPING_ADDRESS": "604 Example Street, City, State, India",
+    "PAYMENT_METHOD": "Credit Card",
+    "ITEMS": [
+      {
+        "ITEM_ID": "24-0",
+        "PRODUCT_ID": "45",
+        "PARTNER_ID": "5",
+        "PRICE": 2448,
+        "QUANTITY": 3,
+        "SUBTOTAL": 7344
+      },
+      {
+        "ITEM_ID": "24-1",
+        "PRODUCT_ID": "46",
+        "PARTNER_ID": "10",
+        "PRICE": 1757,
+        "QUANTITY": 2,
+        "SUBTOTAL": 3514
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "25",
+    "CUSTOMER_ID": "75",
+    "ORDER_DATE": "2025-05-13T15:28:34.415524",
+    "STATUS": "Delivered",
+    "TOTAL_AMOUNT": 18510,
+    "PLATFORM_FEE": 2181.44,
+    "PARTNER_AMOUNT": 16328.56,
+    "SHIPPING_ADDRESS": "670 Example Street, City, State, India",
+    "PAYMENT_METHOD": "Debit Card",
+    "ITEMS": [
+      {
+        "ITEM_ID": "25-0",
+        "PRODUCT_ID": "47",
+        "PARTNER_ID": "4",
+        "PRICE": 679,
+        "QUANTITY": 3,
+        "SUBTOTAL": 2037
+      },
+      {
+        "ITEM_ID": "25-1",
+        "PRODUCT_ID": "9",
+        "PARTNER_ID": "1",
+        "PRICE": 3061,
+        "QUANTITY": 3,
+        "SUBTOTAL": 9183
+      },
+      {
+        "ITEM_ID": "25-2",
+        "PRODUCT_ID": "32",
+        "PARTNER_ID": "7",
+        "PRICE": 3368,
+        "QUANTITY": 1,
+        "SUBTOTAL": 3368
+      },
+      {
+        "ITEM_ID": "25-3",
+        "PRODUCT_ID": "18",
+        "PARTNER_ID": "9",
+        "PRICE": 3922,
+        "QUANTITY": 1,
+        "SUBTOTAL": 3922
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "26",
+    "CUSTOMER_ID": "96",
+    "ORDER_DATE": "2025-07-23T15:28:34.415524",
+    "STATUS": "Delivered",
+    "TOTAL_AMOUNT": 34890,
+    "PLATFORM_FEE": 4707.15,
+    "PARTNER_AMOUNT": 30182.85,
+    "SHIPPING_ADDRESS": "188 Example Street, City, State, India",
+    "PAYMENT_METHOD": "Debit Card",
+    "ITEMS": [
+      {
+        "ITEM_ID": "26-0",
+        "PRODUCT_ID": "20",
+        "PARTNER_ID": "3",
+        "PRICE": 2712,
+        "QUANTITY": 3,
+        "SUBTOTAL": 8136
+      },
+      {
+        "ITEM_ID": "26-1",
+        "PRODUCT_ID": "20",
+        "PARTNER_ID": "3",
+        "PRICE": 1077,
+        "QUANTITY": 3,
+        "SUBTOTAL": 3231
+      },
+      {
+        "ITEM_ID": "26-2",
+        "PRODUCT_ID": "24",
+        "PARTNER_ID": "7",
+        "PRICE": 4584,
+        "QUANTITY": 3,
+        "SUBTOTAL": 13752
+      },
+      {
+        "ITEM_ID": "26-3",
+        "PRODUCT_ID": "48",
+        "PARTNER_ID": "3",
+        "PRICE": 3257,
+        "QUANTITY": 3,
+        "SUBTOTAL": 9771
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "27",
+    "CUSTOMER_ID": "28",
+    "ORDER_DATE": "2025-03-25T15:28:34.415524",
+    "STATUS": "Shipped",
+    "TOTAL_AMOUNT": 4513,
+    "PLATFORM_FEE": 782.31,
+    "PARTNER_AMOUNT": 3730.69,
+    "SHIPPING_ADDRESS": "895 Example Street, City, State, India",
+    "PAYMENT_METHOD": "Net Banking",
+    "ITEMS": [
+      {
+        "ITEM_ID": "27-0",
+        "PRODUCT_ID": "19",
+        "PARTNER_ID": "2",
+        "PRICE": 4513,
+        "QUANTITY": 1,
+        "SUBTOTAL": 4513
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "28",
+    "CUSTOMER_ID": "48",
+    "ORDER_DATE": "2025-01-27T15:28:34.415524",
+    "STATUS": "Processing",
+    "TOTAL_AMOUNT": 2094,
+    "PLATFORM_FEE": 241.78,
+    "PARTNER_AMOUNT": 1852.22,
+    "SHIPPING_ADDRESS": "573 Example Street, City, State, India",
+    "PAYMENT_METHOD": "Debit Card",
+    "ITEMS": [
+      {
+        "ITEM_ID": "28-0",
+        "PRODUCT_ID": "3",
+        "PARTNER_ID": "2",
+        "PRICE": 698,
+        "QUANTITY": 3,
+        "SUBTOTAL": 2094
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "29",
+    "CUSTOMER_ID": "22",
+    "ORDER_DATE": "2025-09-21T15:28:34.415524",
+    "STATUS": "Processing",
+    "TOTAL_AMOUNT": 24867,
+    "PLATFORM_FEE": 4933.25,
+    "PARTNER_AMOUNT": 19933.75,
+    "SHIPPING_ADDRESS": "120 Example Street, City, State, India",
+    "PAYMENT_METHOD": "UPI",
+    "ITEMS": [
+      {
+        "ITEM_ID": "29-0",
+        "PRODUCT_ID": "7",
+        "PARTNER_ID": "2",
+        "PRICE": 802,
+        "QUANTITY": 3,
+        "SUBTOTAL": 2406
+      },
+      {
+        "ITEM_ID": "29-1",
+        "PRODUCT_ID": "14",
+        "PARTNER_ID": "4",
+        "PRICE": 3712,
+        "QUANTITY": 1,
+        "SUBTOTAL": 3712
+      },
+      {
+        "ITEM_ID": "29-2",
+        "PRODUCT_ID": "24",
+        "PARTNER_ID": "2",
+        "PRICE": 3599,
+        "QUANTITY": 1,
+        "SUBTOTAL": 3599
+      },
+      {
+        "ITEM_ID": "29-3",
+        "PRODUCT_ID": "3",
+        "PARTNER_ID": "9",
+        "PRICE": 849,
+        "QUANTITY": 1,
+        "SUBTOTAL": 849
+      },
+      {
+        "ITEM_ID": "29-4",
+        "PRODUCT_ID": "29",
+        "PARTNER_ID": "8",
+        "PRICE": 4767,
+        "QUANTITY": 3,
+        "SUBTOTAL": 14301
+      }
+    ]
+  },
+  {
+    "ORDER_ID": "30",
+    "CUSTOMER_ID": "25",
+    "ORDER_DATE": "2025-01-23T15:28:34.415524",
+    "STATUS": "Processing",
+    "TOTAL_AMOUNT": 19571,
+    "PLATFORM_FEE": 2028.37,
+    "PARTNER_AMOUNT": 17542.63,
+    "SHIPPING_ADDRESS": "946 Example Street, City, State, India",
+    "PAYMENT_METHOD": "Credit Card",
+    "ITEMS": [
+      {
+        "ITEM_ID": "30-0",
+        "PRODUCT_ID": "27",
+        "PARTNER_ID": "6",
+        "PRICE": 4926,
+        "QUANTITY": 3,
+        "SUBTOTAL": 14778
+      },
+      {
+        "ITEM_ID": "30-1",
+        "PRODUCT_ID": "8",
+        "PARTNER_ID": "8",
+        "PRICE": 578,
+        "QUANTITY": 2,
+        "SUBTOTAL": 1156
+      },
+      {
+        "ITEM_ID": "30-2",
+        "PRODUCT_ID": "38",
+        "PARTNER_ID": "9",
+        "PRICE": 814,
+        "QUANTITY": 3,
+        "SUBTOTAL": 2442
+      },
+      {
+        "ITEM_ID": "30-3",
+        "PRODUCT_ID": "34",
+        "PARTNER_ID": "5",
+        "PRICE": 1195,
+        "QUANTITY": 1,
+        "SUBTOTAL": 1195
+      }
+    ]
+  }
+]

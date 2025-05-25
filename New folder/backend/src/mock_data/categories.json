@@ -1,0 +1,32 @@
+[
+  {
+    "CATEGORY_ID": "1",
+    "NAME": "Textiles",
+    "DESCRIPTION": "Handwoven and handcrafted textiles including sarees, shawls, and fabrics."
+  },
+  {
+    "CATEGORY_ID": "2",
+    "NAME": "Pottery",
+    "DESCRIPTION": "Traditional pottery and ceramics from various regions of India."
+  },
+  {
+    "CATEGORY_ID": "3",
+    "NAME": "Woodwork",
+    "DESCRIPTION": "Handcrafted wooden items including furniture, toys, and decorative pieces."
+  },
+  {
+    "CATEGORY_ID": "4",
+    "NAME": "Metalwork",
+    "DESCRIPTION": "Metal crafts including brass, copper, and bronze items."
+  },
+  {
+    "CATEGORY_ID": "5",
+    "NAME": "Jewelry",
+    "DESCRIPTION": "Traditional and contemporary jewelry made with various materials."
+  },
+  {
+    "CATEGORY_ID": "6",
+    "NAME": "Paintings",
+    "DESCRIPTION": "Traditional art forms including Madhubani, Warli, and Pattachitra."
+  }
+]

@@ -1,0 +1,6 @@
+customer_id,name,email,password_hash,address,phone,created_at,updated_at
+5b0f3ec2-a507-4462-aaa3-f317a11f9426,Priya Sharma,priya.sharma@example.com,hashed_password_placeholder,"123 Park Street, Mumbai, Maharashtra",+91 9876543210,2025-05-23T04:15:24.056117,2025-05-23T04:15:24.056123
+aa027625-b33b-40c8-8d72-d8906402d2b1,Rahul Patel,rahul.patel@example.com,hashed_password_placeholder,"456 Lake View, Bangalore, Karnataka",+91 8765432109,2025-05-23T04:15:24.056131,2025-05-23T04:15:24.056133
+617c5d37-85b7-4979-8c66-45a9c6bd6e7d,Ananya Singh,ananya.singh@example.com,hashed_password_placeholder,"789 Hill Road, Delhi, Delhi",+91 7654321098,2025-05-23T04:15:24.056139,2025-05-23T04:15:24.056141
+a89f39bc-5fd4-40fc-8de8-7209b17650a8,Vikram Mehta,vikram.mehta@example.com,hashed_password_placeholder,"101 Sea Face, Chennai, Tamil Nadu",+91 6543210987,2025-05-23T04:15:24.056147,2025-05-23T04:15:24.056149
+40dbe2c4-d7ef-4a25-b408-5c3f248cd482,Neha Gupta,neha.gupta@example.com,hashed_password_placeholder,"202 River View, Kolkata, West Bengal",+91 5432109876,2025-05-23T04:15:24.056154,2025-05-23T04:15:24.056156

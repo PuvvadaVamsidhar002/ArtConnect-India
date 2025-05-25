@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handcraft Heritage - Indian Handicraft Marketplace</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+        }
+        .hero-pattern {
+            background-color: #fef6e4;
+            background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23e07a5f' fill-opacity='0.1'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .story-card {
+            border-radius: 10px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-bold text-orange-700">HandcraftHeritage</h1>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#" class="text-gray-600 hover:text-orange-700">Home</a>
+                    <a href="#" class="text-gray-600 hover:text-orange-700">Categories</a>
+                    <a href="#" class="text-gray-600 hover:text-orange-700">Artisans</a>
+                    <a href="#" class="text-gray-600 hover:text-orange-700">Cultural Stories</a>
+                    <a href="#" class="text-gray-600 hover:text-orange-700">How It Works</a>
+                </nav>
+                <div class="flex items-center space-x-4">
+                    <button class="text-gray-600 hover:text-orange-700">
+                        <i class="fas fa-search text-lg"></i>
+                    </button>
+                    <button class="text-gray-600 hover:text-orange-700">
+                        <i class="fas fa-shopping-cart text-lg"></i>
+                    </button>
+                    <button class="hidden md:block bg-orange-700 hover:bg-orange-800 text-white py-2 px-4 rounded-md">
+                        Sign In
+                    </button>
+                </div>
+                <nav class='Login/signup'>
+                    <a href="#" class="text-gray-600 hover:text-orange-700">Login/SignUp</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-pattern py-16 md:py-24">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold leading-tight text-gray-800 mb-4">
+                        Discover India's Rich Handicraft Heritage
+                    </h1>
+                    <p class="text-lg text-gray-600 mb-8">
+                        Connecting authentic artisans from across India to global customers through a transparent, ethical marketplace that preserves traditional craftsmanship.
+                    </p>
+                    <div class="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4">
+                        <button class="bg-orange-700 hover:bg-orange-800 text-white font-medium py-3 px-6 rounded-md">
+                            Explore Collections
+                        </button>
+                        <button class="border border-orange-700 text-orange-700 hover:bg-orange-50 font-medium py-3 px-6 rounded-md">
+                            Meet Our Artisans
+                        </button>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="grid grid-cols-2 gap-3 md:gap-5">
+                        <div class="bg-white p-2 rounded-lg shadow-md transform translate-y-6">
+                            <div class="bg-orange-50 h-36 md:h-48 rounded overflow-hidden"></div>
+                        </div>
+                        <div class="bg-white p-2 rounded-lg shadow-md">
+                            <div class="bg-yellow-50 h-36 md:h-48 rounded overflow-hidden"></div>
+                        </div>
+                        <div class="bg-white p-2 rounded-lg shadow-md">
+                            <div class="bg-green-50 h-36 md:h-48 rounded overflow-hidden"></div>
+                        </div>
+                        <div class="bg-white p-2 rounded-lg shadow-md transform translate-y-6">
+                            <div class="bg-blue-50 h-36 md:h-48 rounded overflow-hidden"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-3">Explore by Category</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Discover unique handcrafted treasures from over 35,000 products spanning India's rich artistic traditions.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- Category 1 -->
+                <div class="category-card bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300">
+                    <div class="h-40 bg-orange-100"></div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-1">Woodware</h3>
+                        <p class="text-sm text-gray-600">Hand-carved treasures from sustainable sources</p>
+                    </div>
+                </div>
+                
+                <!-- Category 2 -->
+                <div class="category-card bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300">
+                    <div class="h-40 bg-red-100"></div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-1">Handprinted Textiles</h3>
+                        <p class="text-sm text-gray-600">Traditional block printing and natural dyes</p>
+                    </div>
+                </div>
+                
+                <!-- Category 3 -->
+                <div class="category-card bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300">
+                    <div class="h-40 bg-yellow-100"></div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-1">Artmetal Ware</h3>
+                        <p class="text-sm text-gray-600">Intricate metalwork from master craftsmen</p>
+                    </div>
+                </div>
+                
+                <!-- Category 4 -->
+                <div class="category-card bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300">
+                    <div class="h-40 bg-blue-100"></div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-1">Embroidered Goods</h3>
+                        <p class="text-sm text-gray-600">Delicate handmade textile embellishments</p>
+                    </div>
+                </div>
+                
+                <!-- Category 5 -->
+                <div class="category-card bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300">
+                    <div class="h-40 bg-green-100"></div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-1">Pottery & Glassware</h3>
+                        <p class="text-sm text-gray-600">Clay artistry from regional traditions</p>
+                    </div>
+                </div>
+                
+                <!-- Category 6 -->
+                <div class="category-card bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300">
+                    <div class="h-40 bg-purple-100"></div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-1">Zari & Zari Goods</h3>
+                        <p class="text-sm text-gray-600">Gold and silver thread embroidery</p>
+                    </div>
+                </div>
+                
+                <!-- Category 7 -->
+                <div class="category-card bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300">
+                    <div class="h-40 bg-pink-100"></div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-1">Imitation Jewelry</h3>
+                        <p class="text-sm text-gray-600">Traditional designs in accessible forms</p>
+                    </div>
+                </div>
+                
+                <!-- Category 8 -->
+                <div class="category-card bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300">
+                    <div class="h-40 bg-indigo-100"></div>
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-1">Sculptures</h3>
+                        <p class="text-sm text-gray-600">Cultural icons crafted by master artisans</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cultural Storytelling Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-3">Stories Behind the Craft</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Every product carries centuries of cultural heritage and the unique story of its creator.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Story 1 -->
+                <div class="story-card bg-white shadow-md overflow-hidden transition-all duration-300">
+                    <div class="md:flex">
+                        <div class="md:w-2/5 bg-red-100 h-48 md:h-auto"></div>
+                        <div class="p-6 md:w-3/5">
+                            <h3 class="text-xl font-semibold mb-3">The Ancient Art of Block Printing</h3>
+                            <p class="text-gray-600 mb-4">
+                                Dating back 2000 years, Rajasthan's block printing tradition uses hand-carved wooden blocks and natural dyes to create intricate patterns that tell stories of local culture.
+                            </p>
+                            <a href="#" class="inline-flex items-center text-orange-700 hover:text-orange-800">
+                                Read the full story <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Story 2 -->
+                <div class="story-card bg-white shadow-md overflow-hidden transition-all duration-300">
+                    <div class="md:flex">
+                        <div class="md:w-2/5 bg-blue-100 h-48 md:h-auto"></div>
+                        <div class="p-6 md:w-3/5">
+                            <h3 class="text-xl font-semibold mb-3">Bidriware: Silver Inlay Mastery</h3>
+                            <p class="text-gray-600 mb-4">
+                                Born in the 14th century during the Bahmani Sultanate, this intricate metalwork combines Persian, Arab and Turkish influences with local artistry.
+                            </p>
+                            <a href="#" class="inline-flex items-center text-orange-700 hover:text-orange-800">
+                                Read the full story <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-3">How Our Platform Works</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    We connect customers directly with local handicraft websites across India through our integrated marketplace.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Step 1 -->
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-search text-orange-700 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Discover</h3>
+                    <p class="text-gray-600">
+                        Explore our curated collection of authentic handicrafts from multiple local websites across India.
+                    </p>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-shopping-bag text-orange-700 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Order</h3>
+                    <p class="text-gray-600">
+                        Place your order directly on our platform with the security of transparent pricing and ethical sourcing.
+                    </p>
+                </div>
+                
+                <!-- Step 3 -->
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-truck text-orange-700 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Receive</h3>
+                    <p class="text-gray-600">
+                        Partner websites handle packaging and shipping directly to your door, with 80-90% of the revenue going back to the artisan community.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transparency Section -->
+    <section class="py-16 bg-orange-50">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 md:pr-10 mb-8 md:mb-0">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Transparency in Every Thread</h2>
+                    <p class="text-gray-600 mb-6">
+                        Each product features a unique QR code that reveals:
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <div class="bg-orange-200 p-1 rounded mr-3 mt-1">
+                                <i class="fas fa-user-circle text-orange-700"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold mb-1">Artisan Details</h3>
+                                <p class="text-gray-600 text-sm">Meet the master craftsperson behind your purchase</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="bg-orange-200 p-1 rounded mr-3 mt-1">
+                                <i class="fas fa-rupee-sign text-orange-700"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold mb-1">Pricing Breakdown</h3>
+                                <p class="text-gray-600 text-sm">See exactly how your purchase supports the artisan</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="bg-orange-200 p-1 rounded mr-3 mt-1">
+                                <i class="fas fa-certificate text-orange-700"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold mb-1">Authenticity Verification</h3>
+                                <p class="text-gray-600 text-sm">Confirm the authenticity of traditional techniques and materials</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="bg-orange-200 p-1 rounded mr-3 mt-1">
+                                <i class="fas fa-history text-orange-700"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold mb-1">Cultural Heritage</h3>
+                                <p class="text-gray-600 text-sm">Learn about the cultural significance and history</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="bg-white rounded-lg shadow-lg p-8 relative">
+                        <div class="bg-gray-100 h-64 md:h-72 rounded-lg flex items-center justify-center mb-4">
+                            <div class="text-center">
+                                <i class="fas fa-qrcode text-gray-300 text-5xl mb-3"></i>
+                                <p class="text-gray-500">QR Code Sample</p>
+                            </div>
+                        </div>
+                        <div class="bg-orange-50 p-4 rounded-lg">
+                            <h3 class="font-semibold text-lg mb-2">Product Transparency</h3>
+                            <div class="space-y-2">
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">Artisan Earnings:</span>
+                                    <span class="font-medium">75%</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">Local Partner:</span>
+                                    <span class="font-medium">15%</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-600">Platform Fee:</span>
+                                    <span class="font-medium">10%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Artisan Spotlight -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-3">Meet Our Artisans</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    The skilled hands behind our unique handcrafted treasures.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Artisan 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="h-56 bg-gray-100"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-1">Rajesh Kumar</h3>
+                        <p class="text-orange-700 mb-3">Block Print Master · Jaipur, Rajasthan</p>
+                        <p class="text-gray-600 mb-4">
+                            With 30 years of experience, Rajesh preserves traditional Sanganeri and Bagru block printing techniques passed down through five generations.
+                        </p>
+                        <a href="#" class="text-orange-700 hover:text-orange-800 font-medium">View Collection</a>
+                    </div>
+                </div>
+                
+                <!-- Artisan 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="h-56 bg-gray-100"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-1">Lakshmi Devi</h3>
+                        <p class="text-orange-700 mb-3">Embroidery Artisan · Kutch, Gujarat</p>
+                        <p class="text-gray-600 mb-4">
+                            Lakshmi specializes in intricate mirror work and thread embroidery, creating vibrant textiles that reflect the rich heritage of Gujarat.
+                        </p>
+                        <a href="#" class="text-orange-700 hover:text-orange-800 font-medium">View Collection</a>
+                    </div>
+                </div>
+                
+                <!-- Artisan 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <div class="h-56 bg-gray-100"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-1">Mohammed Salim</h3>
+                        <p class="text-orange-700 mb-3">Bidri Craftsman · Bidar, Karnataka</p>
+                        <p class="text-gray-600 mb-4">
+                            A sixth-generation Bidriware artisan, Salim creates exquisite silver inlay work on metal using techniques dating back to the 14th century.
+                        </p>
+                        <a href="#" class="text-orange-700 hover:text-orange-800 font-medium">View Collection</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-10">
+                <button class="border border-orange-700 text-orange-700 hover:bg-orange-50 font-medium py-3 px-6 rounded-md">
+                    Meet More Artisans
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partner Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-3">Our Partner Network</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    We've partnered with established local handicraft websites across India to bring their authentic products to a global audience.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <!-- Partner 1 -->
+                <div class="bg-white rounded-lg p-6 shadow-md flex items-center justify-center h-24">
+                    <div class="text-gray-300 text-xl font-bold">Partner Logo</div>
+                </div>
+                
+                <!-- Partner 2 -->
+                <div class="bg-white rounded-lg p-6 shadow-md flex items-center justify-center h-24">
+                    <div class="text-gray-300 text-xl font-bold">Partner Logo</div>
+                </div>
+                
+                <!-- Partner 3 -->
+                <div class="bg-white rounded-lg p-6 shadow-md flex items-center justify-center h-24">
+                    <div class="text-gray-300 text-xl font-bold">Partner Logo</div>
+                </div>
+                
+                <!-- Partner 4 -->
+                <div class="bg-white rounded-lg p-6 shadow-md flex items-center justify-center h-24">
+                    <div class="text-gray-300 text-xl font-bold">Partner Logo</div>
+                </div>
+                
+                <!-- Partner 5 -->
+                <div class="bg-white rounded-lg p-6 shadow-md flex items-center justify-center h-24">
+                    <div class="text-gray-300 text-xl font-bold">Partner Logo</div>
+                </div>
+                
+                <!-- Partner 6 -->
+                <div class="bg-white rounded-lg p-6 shadow-md flex items-center justify-center h-24">
+                    <div class="text-gray-300 text-xl font-bold">Partner Logo</div>
+                </div>
+                
+                <!-- Partner 7 -->
+                <div class="bg-white rounded-lg p-6 shadow-md flex items-center justify-center h-24">
+                    <div class="text-gray-300 text-xl font-bold">Partner Logo</div>
+                </div>
+                
+                <!-- Partner 8 -->
+                <div class="bg-white rounded-lg p-6 shadow-md flex items-center justify-center h-24">
+                    <div class="bg-orange-100 text-orange-700 px-4 py-2 rounded-md">Become a Partner</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-orange-700 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Join the Movement to Preserve Indian Craftsmanship</h2>
+            <p class="text-lg mb-8 max-w-3xl mx-auto">
+                Help us empower artisans, preserve traditional handicrafts, and bridge the gap between buyers and sellers through our ethical, tech-driven marketplace.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <button class="bg-white text-orange-700 hover:bg-gray-100 font-medium py-3 px-8 rounded-md">
+                    Start Shopping
+                </button>
+                <button class="border border-white text-white hover:bg-orange-800 font-medium py-3 px-8 rounded-md">
+                    Become a Partner
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300">
+        <div class="container mx-auto px-4 py-16">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-4">HandcraftHeritage</h3>
+                    <p class="mb-4">
+                        Connecting authentic Indian handicrafts with global customers through a transparent, ethical marketplace.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white">About Us</a></li>
+                        <li><a href="#" class="hover:text-white">How It Works</a></li>
+                        <li><a href="#" class="hover:text-white">Partner with Us</a></li>
+                        <li><a href="#" class="hover:text-white">Artisan Stories</a></li>
+                        <li><a href="#" class="hover:text-white">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Categories</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white">Woodware</a></li>
+                        <li><a href="#" class="hover:text-white">Handprinted Textiles</a></li>
+                        <li><a href="#" class="hover:text-white">Artmetal Ware</a></li>
+                        <li><a href="#" class="hover:text-white">Embroidered Goods</a></li>
+                        <li><a href="#" class="hover:text-white">View All Categories</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Contact Us</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope mt-1 mr-3 text-orange-500"></i>
+                            <span>support@handcraftheritage.com</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-phone-alt mt-1 mr-3 text-orange-500"></i>
+                            <span>+91 98765 43210</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3 text-orange-500"></i>
+                            <span>Bangalore, Karnataka, India</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center text-sm">
+                <p>&copy; 2025 HandcraftHeritage. All rights reserved.</p>
+                <div class="mt-2 space-x-4">
+                    <a href="#" class="hover:text-white">Privacy Policy</a>
+                    <a href="#" class="hover:text-white">Terms of Service</a>
+                    <a href="#" class="hover:text-white">Shipping Policy</a>
+                    <a href="#" class="hover:text-white">Refund Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
